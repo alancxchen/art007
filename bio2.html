@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alan's Bio Page'</title>
+	<style>
+		body{
+			/*font-style: italic;*/
+			/*font-family: Impact;*/
+			font-size: 50px;
+			background-color: #60E115;
+			background-image: url("img/background.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+ 			background-attachment: fixed; 
+			background-size: cover;
+
+/* 			border: 6px solid red; */
+ 		}
+		h1{
+			font-size: 60px;
+			text-align: center;
+			/*background-color: #FCFF4F;*/
+		}
+		h2{
+			/*background-color: #5D8BFF;*/
+		}
+		p{
+			/*background-color: #FC506C;*/
+			font-size: 25px;
+			
+		}
+		h3{
+			/*background-color: #C364FF;*/
+		}
+		ul{
+			/*background-color: #6A82FF;*/
+			background-color: #EBFFE4;
+		}
+		.rectangle{
+			text-align: left;
+			width:1000px;
+			height:600px;
+			position: relative;
+			top: 50px;
+			margin: auto;
+			border: 2px dashed  #ffffff;
+			box-shadow: 0 0 0 8px #668CFF;
+		}
+		.blue{
+			background: #FED592;
+
+
+/* 			background: #59FF70; */
+			opacity: 0.8;
+		}
+
+		#prof{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: 200px;
+			left: 400px;
+			display: block;
+			/* 
+argin-left: auto;
+			margin-right: auto;
+ */
+		}
+		#div2{
+			font-family: "Courier New";	
+/* 			position: absolute; */
+			top: 20px;
+			margin-left: 75px;
+			margin-right: 75px;
+								
+		}
+		#underneath-paragraph {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			bottom: 100px;
+			opacity: 0;
+		}
+		#photo{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			bottom: 50px;
+			left: 350px;
+			display: block;
+		
+		}
+		
+
+		
+		</style>
+</head>
+<body>
+	<div class="rectangle blue"id="div1">
+		<div id= "div2"><h1>Hello! <br>My name is Alan. <br><br><br><br><br>Click on me for more!</h1></div>
+		<div class="photo"> <img id="prof" alt = "Alan" src ="img/prof.jpg">
+		<div id="underneath-paragraph"> </div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
